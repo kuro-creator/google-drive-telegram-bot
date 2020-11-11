@@ -15,6 +15,7 @@ from bot.helpers.utils import CustomFilters
 
 OAUTH_SCOPE = "https://www.googleapis.com/auth/drive"
 REDIRECT_URI = "urn:ietf:wg:oauth:2.0:oob"
+TOKEN_URL="https://accounts.google.com/o/oauth2/token"
 G_DRIVE_DIR_MIME_TYPE = "application/vnd.google-apps.folder"
 G_DRIVE_CLIENT_ID = "202264815644.apps.googleusercontent.com"
 G_DRIVE_CLIENT_SECRET = "X4Z3ca8xfWDb1Voo-F9a7ZxJ"
@@ -43,7 +44,7 @@ async def _auth(client, message):
         text=Messages.AUTH_TEXT.format(auth_url),
         quote=True,
         reply_markup=InlineKeyboardMarkup(
-                  [[InlineKeyboardButton("4/1AY0e-g7e2kwwaPJRNylmMqadXHL54LYnYnwhXyd3BHtaJSyOuPTJOqUmURA", url=auth_url)]]
+                  [[InlineKeyboardButton("Authorization URL", url=auth_url)]]
               )
         )
     except Exception as e:
