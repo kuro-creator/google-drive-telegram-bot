@@ -4,7 +4,7 @@ class config:
     API_HASH = "f4a1af6d7688c41138ef4b3d8c8d9baa"
     DATABASE_URL = "postgres://dvwsfuotuiwrcl:cb245b9c09a35459abacc57f0cdebe81ede754e7759614da3aea6f639c6d7f3a@ec2-3-229-51-131.compute-1.amazonaws.com:5432/df1givcqfggi7p"
     SUDO_USERS = "1104560929 1238661140" # Sepearted by space.
-    SUPPORT_CHAT_LINK = "https://t.me/joinchat/SdR4FE6ZCj41ttvByC1chg"
+    SUPPORT_CHAT_LINK = "https://telegra.ph/Public-Team-Drive-12-19"
     DOWNLOAD_DIRECTORY = "./downloads/"
 
 
@@ -36,7 +36,7 @@ class Messages:
         "**Peraturan**\n__1. Jangan menyalin file/folder google drive dengan jumlah yang besar. Itu mungkin akan menyebabkan filemu rusak atau membuat bot hang.\n2. Jangan mengirim link macam zippyshare, mega, solidfiles, dkk. Gunakan @transload untuk mengubah mereka menjadi direct link. Saya merekomendasikan http://aws.rapidleech.gq/ untuk mengubah linkmu menjadi direct link.\n3. Tolong jangan menyalahgunakan layanan gratis ini.__",
         
         # Dont remove this ↓ if you respect developer.
-        "**Developed by @vcnmxd and @zxcxzcx**"
+        "**Developed by @zxcxzcx**"
         ]
      
     RATE_LIMIT_EXCEEDED_MESSAGE = "❗ **Rate Limit Exceeded.**\n__User rate limit exceeded, coba lagi 24 jam mendatang :).__"
